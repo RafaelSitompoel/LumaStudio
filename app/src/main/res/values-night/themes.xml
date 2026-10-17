@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Dark Mode Theme (Midnight Teal + Cream) -->
+    <style name="Theme.LumaStudio" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary Brand Colors -->
+        <item name="colorPrimary">@color/luma_primary</item>
+        <item name="colorPrimaryVariant">@color/luma_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary & Accent -->
+        <item name="colorSecondary">@color/luma_accent_teal</item>
+        <item name="colorOnSecondary">@color/luma_primary</item>
+
+        <!-- Background & Surface -->
+        <item name="android:colorBackground">@color/luma_dark_bg</item>
+        <item name="colorSurface">@color/luma_dark_surface</item>
+        <item name="colorOnBackground">#E0ECEC</item>
+        <item name="colorOnSurface">#E0ECEC</item>
+
+        <!-- System bar styling -->
+        <item name="android:statusBarColor">@color/luma_dark_bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:navigationBarColor">@color/luma_dark_bg</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">false</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.LumaStudio.Splash" parent="Theme.LumaStudio">
+        <item name="android:windowBackground">@color/luma_dark_bg</item>
+        <item name="android:statusBarColor">@color/luma_dark_bg</item>
+        <item name="android:navigationBarColor">@color/luma_dark_bg</item>
+    </style>
+</resources>

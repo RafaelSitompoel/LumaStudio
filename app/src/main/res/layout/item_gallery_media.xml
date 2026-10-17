@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:layout_margin="4dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/gallery"
+            android:scaleType="centerCrop" />
+
+        <!-- Video Badge Overlay -->
+        <ImageView
+            android:id="@+id/icon_video_badge"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_pill"
+            android:contentDescription="Video"
+            android:padding="6dp"
+            android:src="@drawable/ic_video"
+            android:visibility="gone"
+            app:tint="#FFFFFF" />
+
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>

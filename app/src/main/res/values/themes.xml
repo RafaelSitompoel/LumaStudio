@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base Application Theme -->
+    <style name="Theme.LumaStudio" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/accent_midnight_teal</item>
+        <item name="colorPrimaryVariant">@color/luma_primary_variant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorSecondary">@color/luma_accent_teal</item>
+        <item name="colorOnSecondary">@color/luma_primary</item>
+        <item name="android:colorBackground">@color/luma_cream</item>
+        <item name="colorSurface">@color/luma_warm_white</item>
+        <item name="colorOnBackground">@color/text_primary</item>
+        <item name="colorOnSurface">@color/text_primary</item>
+        <item name="android:statusBarColor">@color/luma_cream</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:navigationBarColor">@color/luma_cream</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- Specific Accent Themes -->
+    <style name="Theme.LumaStudio.MidnightTeal" parent="Theme.LumaStudio">
+        <item name="colorPrimary">@color/accent_midnight_teal</item>
+    </style>
+
+    <style name="Theme.LumaStudio.SageGreen" parent="Theme.LumaStudio">
+        <item name="colorPrimary">@color/accent_sage_green</item>
+    </style>
+
+    <style name="Theme.LumaStudio.SlateBlue" parent="Theme.LumaStudio">
+        <item name="colorPrimary">@color/accent_slate_blue</item>
+    </style>
+
+    <style name="Theme.LumaStudio.VintageMocha" parent="Theme.LumaStudio">
+        <item name="colorPrimary">@color/accent_vintage_mocha</item>
+    </style>
+
+    <style name="Theme.LumaStudio.ClassicCharcoal" parent="Theme.LumaStudio">
+        <item name="colorPrimary">@color/accent_classic_charcoal</item>
+    </style>
+
+    <style name="Theme.LumaStudio.ForestGreen" parent="Theme.LumaStudio">
+        <item name="colorPrimary">@color/accent_forest_green</item>
+    </style>
+
+    <!-- Splash Theme -->
+    <style name="Theme.LumaStudio.Splash" parent="Theme.LumaStudio">
+        <item name="android:windowBackground">@color/luma_cream</item>
+        <item name="android:statusBarColor">@color/luma_cream</item>
+        <item name="android:navigationBarColor">@color/luma_cream</item>
+    </style>
+</resources>

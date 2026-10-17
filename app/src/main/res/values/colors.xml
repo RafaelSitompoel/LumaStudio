@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Midnight Teal + Cream Palette (NO PINK) -->
+    <color name="luma_cream">#F5F0E6</color>
+    <color name="luma_warm_white">#FFFFFF</color>
+    <color name="luma_teal_light">#E0ECEC</color>
+    <color name="luma_sage">#C5D6CD</color>
+    <color name="luma_primary">#1D4542</color>
+    <color name="luma_primary_variant">#102A2A</color>
+    <color name="luma_accent_teal">#B8E0D2</color>
+
+    <!-- Accent Color Options -->
+    <color name="accent_midnight_teal">#1D4542</color>
+    <color name="accent_sage_green">#6B8F71</color>
+    <color name="accent_slate_blue">#526A91</color>
+    <color name="accent_vintage_mocha">#80634D</color>
+    <color name="accent_classic_charcoal">#343A40</color>
+    <color name="accent_forest_green">#285943</color>
+
+    <!-- Dark Mode Palette -->
+    <color name="luma_dark_bg">#101C1C</color>
+    <color name="luma_dark_surface">#162626</color>
+    <color name="luma_dark_card">#1E3333</color>
+
+    <!-- Basic Tones -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="overlay_black_40">#66000000</color>
+    <color name="overlay_black_70">#B3000000</color>
+
+    <!-- Status / UI -->
+    <color name="shutter_red">#D97768</color>
+    <color name="shutter_ring">#FFFFFF</color>
+    <color name="shutter_inner_photo">#F5F0E6</color>
+    <color name="text_primary">#243B31</color>
+    <color name="text_secondary">#66736B</color>
+</resources>

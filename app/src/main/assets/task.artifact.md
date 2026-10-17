@@ -1,0 +1,7 @@
+- `[x]` Task 1: Implement `PoseAssistantManager`, `FramePreset`, and `CustomFrameManager` for pose hints and JSON frame presets
+- `[/]` Task 2: Implement `PrintExportManager` for print-ready PNG, JPEG, and PDF photostrip export
+- `[ ]` Task 3: Implement `CreativeStudioView` for interactive text, stickers, doodle, and undo/redo
+- `[ ]` Task 4: Implement `FrameDesignerActivity` and layout for custom frame designer
+- `[ ]` Task 5: Enhance `PhotoStripActivity` for 2/3/4/6 shots, per-photo retakes, and print-ready export
+- `[ ]` Task 6: Enhance `GalleryActivity` for Smart Local Album (search, grouping, sorting, favorites, multi-select)
+- `[ ]` Task 7: Build, test, and verify complete premium photobooth upgrade

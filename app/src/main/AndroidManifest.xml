@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <!-- Storage permissions for Android 12 and below -->
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"
+        tools:ignore="ScopedStorage" />
+
+    <!-- Storage permissions for Android 13+ (API 33+) -->
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO" />
+
+    <!-- Hardware Features -->
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+    <uses-feature
+        android:name="android.hardware.camera.autofocus"
+        android:required="false" />
+    <uses-feature
+        android:name="android.hardware.microphone"
+        android:required="false" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.LumaStudio">
+
+        <!-- Splash Activity -->
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.LumaStudio.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Frame Gallery Activity -->
+        <activity
+            android:name=".FrameGalleryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- About Activity -->
+        <activity
+            android:name=".AboutActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Main Camera Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- Photo Editor Activity -->
+        <activity
+            android:name=".PhotoEditorActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Photo Strip Studio Activity -->
+        <activity
+            android:name=".PhotoStripActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Frame Designer Activity -->
+        <activity
+            android:name=".FrameDesignerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Collage Studio Activity -->
+        <activity
+            android:name=".CollageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Pose Assistant Activity -->
+        <activity
+            android:name=".PoseAssistantActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- AI Assistant Activity -->
+        <activity
+            android:name=".AiAssistantActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- AI Studio Activity -->
+        <activity
+            android:name=".AiStudioActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Print Studio Activity -->
+        <activity
+            android:name=".PrintStudioActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Gallery Activity -->
+        <activity
+            android:name=".GalleryActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Media Viewer Activity -->
+        <activity
+            android:name=".MediaViewerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Video Compression Activity -->
+        <activity
+            android:name=".VideoCompressionActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- File Provider for sharing files securely -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+    </application>
+
+</manifest>

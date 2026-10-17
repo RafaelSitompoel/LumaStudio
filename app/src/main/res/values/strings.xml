@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Luma</string>
+    <string name="tagline">Photobooth Estetik &amp; Kamera Retro</string>
+    <string name="photo_mode">FOTO</string>
+    <string name="video_mode">VIDEO</string>
+    <string name="photostrip_mode">STRIP</string>
+
+    <!-- Actions -->
+    <string name="capture">Ambil Foto</string>
+    <string name="record">Rekam Video</string>
+    <string name="save">Simpan</string>
+    <string name="share">Bagikan</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Hapus</string>
+    <string name="cancel">Batal</string>
+    <string name="reset">Reset</string>
+    <string name="compress">Kompresi Video</string>
+    <string name="settings">Pengaturan</string>
+    <string name="gallery">Galeri</string>
+    <string name="filters">Filter</string>
+    <string name="frames">Bingkai</string>
+    <string name="back">Kembali</string>
+    <string name="flash">Flash</string>
+    <string name="timer_off">Off</string>
+    <string name="flip_camera">Beralih Kamera</string>
+    <string name="zero_time">00:00</string>
+
+    <!-- Filter Names -->
+    <string name="filter_original">Original</string>
+    <string name="filter_vintage_film">Vintage Film</string>
+    <string name="filter_kodak_warm">Kodak Warm</string>
+    <string name="filter_fuji_soft">Fuji Soft</string>
+    <string name="filter_retro_90s">Retro 90s</string>
+    <string name="filter_y2k">Y2K</string>
+    <string name="filter_soft_pink">Soft Pink</string>
+    <string name="filter_creamy">Creamy</string>
+    <string name="filter_warm_sunset">Warm Sunset</string>
+    <string name="filter_cool_blue">Cool Blue</string>
+    <string name="filter_bw">B &amp; W</string>
+    <string name="filter_sepia">Sepia</string>
+    <string name="filter_grainy_film">Grainy Film</string>
+    <string name="filter_dreamy_glow">Dreamy Glow</string>
+    <string name="filter_disposable">Disposable</string>
+    <string name="filter_polaroid">Polaroid</string>
+
+    <!-- Sliders -->
+    <string name="intensity">Intensitas Filter</string>
+    <string name="brightness">Kecerahan (Brightness)</string>
+    <string name="contrast">Kontras (Contrast)</string>
+    <string name="saturation">Saturasi (Saturation)</string>
+    <string name="temperature">Temperatur (Warm/Cool)</string>
+    <string name="vignette">Vignette</string>
+    <string name="grain">Film Grain</string>
+
+    <!-- Photostrip -->
+    <string name="shots_count">Jumlah Foto</string>
+    <string name="layout_type">Tata Letak</string>
+    <string name="vertical">Vertikal</string>
+    <string name="horizontal">Horisontal</string>
+    <string name="frame_style">Gaya Bingkai</string>
+    <string name="frame_color">Warna Bingkai</string>
+    <string name="border_width">Ketebalan Bingkai</string>
+    <string name="caption_text">Teks Keterangan</string>
+    <string name="include_date">Tampilkan Tanggal</string>
+    <string name="photostrip_caption_placeholder">Luma Photobooth ♡</string>
+
+    <!-- Settings & Info -->
+    <string name="timer">Timer Pemotretan</string>
+    <string name="grid">Grid Kamera (3x3)</string>
+    <string name="shutter_sound">Suara Shutter</string>
+    <string name="vibration">Getaran Shutter</string>
+    <string name="storage_location">Lokasi Penyimpanan</string>
+    <string name="internal_storage">Penyimpanan Internal (MediaStore)</string>
+    <string name="saf_storage">Folder Kustom (SAF)</string>
+    <string name="video_quality">Kualitas Video</string>
+    <string name="audio_source">Sumber Audio</string>
+    <string name="auto_compression">Kompresi Otomatis</string>
+    <string name="dark_mode">Mode Gelap</string>
+    <string name="app_version">Versi Aplikasi: 1.0.0 (Offline)</string>
+    <string name="select_saf_folder">Pilih Folder Kustom (SAF)</string>
+    <string name="reset_settings">Reset Pengaturan</string>
+    <string name="camera_and_shooting">Kamera &amp; Pemotretan</string>
+
+    <!-- Compression & Media -->
+    <string name="select_compression_profile">Pilih Profil Kompresi</string>
+    <string name="profile_space_saver">Hemat Ruang (720p - Kualitas Cukup)</string>
+    <string name="profile_balanced">Seimbang (720p - Rekomendasi)</string>
+    <string name="profile_high_quality">Kualitas Tinggi (1080p - Bitrate Tinggi)</string>
+    <string name="ready_to_compress">Siap mengompresi video</string>
+    <string name="start_compression">Mulai Kompresi</string>
+    <string name="save_compressed_video">Simpan Video Hasil Kompresi</string>
+    <string name="no_media_empty">Belum ada foto atau video di Luma.</string>
+    <string name="media_detail">Detail Media</string>
+
+    <!-- Permissions & Messages -->
+    <string name="camera_permission_required">Aplikasi membutuhkan izin kamera untuk mengambil foto &amp; video.</string>
+    <string name="grant_permission">Izinkan Akses</string>
+    <string name="saved_successfully">Berhasil disimpan ke Galeri!</string>
+    <string name="error_saving">Gagal menyimpan file.</string>
+    <string name="storage_full_warning">Peringatan: Sisa penyimpanan perangkat hampir habis!</string>
+</resources>
